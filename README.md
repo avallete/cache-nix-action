@@ -331,7 +331,7 @@ Disadvantages:
     ```
 
 - Update the `actions-toolkit` branch.
-- Ask for new releases of `@cache-nix-action/cache` if there are changes on the `actions-toolkit` branch.
+- Ask for new releases of `github-actions.cache-buildjet` if there are changes on the `actions-toolkit` branch.
 
 # Cache action
 

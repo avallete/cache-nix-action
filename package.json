@@ -1,5 +1,5 @@
 {
-  "name": "cache",
+  "name": "cache-nx-buildjet",
   "version": "4.0.2",
   "private": true,
   "description": "Cache dependencies and build outputs",
@@ -29,8 +29,8 @@
     "@actions/exec": "^1.1.1",
     "@actions/github": "^5.1.1",
     "@actions/io": "^1.1.2",
-    "@cache-nix-action/cache": "^3.3.0",
     "dedent": "^1.5.1",
+    "github-actions.cache-buildjet-patched": "^0.2.0",
     "handlebars": "^4.7.8"
   },
   "devDependencies": {

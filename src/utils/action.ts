@@ -1,4 +1,4 @@
-import * as cache from "@cache-nix-action/cache";
+import * as cache from "github-actions.cache-buildjet-patched";
 import * as core from "@actions/core";
 import * as github from "@actions/github";
 import dedent from "dedent";
@@ -6,7 +6,7 @@ import dedent from "dedent";
 import { Inputs, RefKey } from "../constants";
 import * as inputs from "../inputs";
 import { readdirSync, writeFileSync } from "fs";
-import * as cacheUtils from "@cache-nix-action/cache/lib/internal/cacheUtils";
+import * as cacheUtils from "github-actions.cache-buildjet-patched/lib/internal/cacheUtils";
 import { exec } from "@actions/exec";
 
 const myDedent = dedent.withOptions({});
